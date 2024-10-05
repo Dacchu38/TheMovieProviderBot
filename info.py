@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
-STREAM_API = (environ.get('STREAM_API', 'fcbb1260a7ff882c602c9c6cb19327e15ef42e55'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_to_open_movielink'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'yamlinks.com'))
+STREAM_API = (environ.get('STREAM_API', '6e57307f5f19dd2ecf604759ede506a8901d3b35'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/how_to_open_linkszz/12'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5289659053 6059507751').split()]
