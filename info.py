@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg')
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'yamlinks.com'))
 STREAM_API = (environ.get('STREAM_API', '6e57307f5f19dd2ecf604759ede506a8901d3b35'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/how_to_open_linkszz/12'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/howtopenlinkf/6'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5289659053 6059507751').split()]
