@@ -14,8 +14,8 @@ def is_enabled(value, default):
 # Bot information
 SESSION = environ.get('SESSION', 'pk movies')
 API_ID = int(environ.get('API_ID', '26009823'))
-API_HASH = environ.get('API_HASH', '7000373062:AAFvLrUy5vJ8zM8cnAFoQC4u5qE7OBhdVas')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7000373062:AAFvLrUy5vJ8zM8cnAFoQC4u5qE7OBhdVas")
+API_HASH = environ.get('API_HASH', 'e545fc56028ee9404ef5b5bec64503ca')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7000373062:AAEQ53-09DjYAPF3DXeevXxrvepEL_Fz7II")
 
 # Bot settings7000373062:AAFvLrUy5vJ8zM8cnAFoQC4u5qE7OBhdVas
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
