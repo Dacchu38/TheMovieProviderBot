@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'pk movies')
-API_ID = int(environ.get('API_ID', '26009823'))
-API_HASH = environ.get('API_HASH', 'e545fc56028ee9404ef5b5bec64503ca')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7000373062:AAEQ53-09DjYAPF3DXeevXxrvepEL_Fz7II")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7000373062:-09DjYAPF3DXeevXxrvepEL_Fz7II")
 
 # Bot settings7000373062:AAFvLrUy5vJ8zM8cnAFoQC4u5qE7OBhdVas
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -50,8 +50,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://pasci55:FqOyj9wxWuzplMeQ@cluster0.jsv3b84.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://:@cluster0.jsv3b84.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
