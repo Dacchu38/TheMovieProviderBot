@@ -20,8 +20,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7000373062:-09DjYAPF3DXeevXxrvepEL_Fz7II")
 # Bot settings7000373062:AAFvLrUy5vJ8zM8cnAFoQC4u5qE7OBhdVas
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-
-PICS = (environ.get('PICS', 'https://telegra.ph/file/5c8138e1c2ab6f466b1dd-43cc962e3867587c1f.jpg https://telegra.ph/file/2a2d895dc7c853ae8240d-e5651431648b09fbec.jpg https://telegra.ph/file/2ae9c75c42f186c16cb7d-c8ef69d845b1f8c9de.jpg https://telegra.ph/file/21dcce8c6f5d0b7f66315-7426805465913db7dd.jpg https://telegra.ph/file/30dca7afcc648000578c0-5786799387d9617c29.jpg https://telegra.ph/file/8b429cbfca124a19b9d4b-11d024ce709f24110c.jpg https://telegra.ph/file/93627f3a351084d29bb13-434e94b90c433b6c33.jpg https://telegra.ph/file/ae771b6546e4c887da291-1b825e5f0a4ff445af.jpg https://telegra.ph/file/f44791d4a7dd9cb9ae64e-513eb237a383107259.jpg https://telegra.ph/file/a64cda3e629846b645164-ad4688983c6972a7bb.jpg https://telegra.ph/file/f755c7bd2a2f66b927239-56c0aab00ed7f12948.jpg')).split() #SAMPLE PIC
+https://telegra.ph/file/5c8138e1c2ab6f466b1dd-43cc962e3867587c1f.jpg https://telegra.ph/file/2a2d895dc7c853ae8240d-e5651431648b09fbec.jpg https://telegra.ph/file/2ae9c75c42f186c16cb7d-c8ef69d845b1f8c9de.jpg https://telegra.ph/file/21dcce8c6f5d0b7f66315-7426805465913db7dd.jpg https://telegra.ph/file/30dca7afcc648000578c0-5786799387d9617c29.jpg https://telegra.ph/file/8b429cbfca124a19b9d4b-11d024ce709f24110c.jpg https://telegra.ph/file/93627f3a351084d29bb13-434e94b90c433b6c33.jpg https://telegra.ph/file/ae771b6546e4c887da291-1b825e5f0a4ff445af.jpg https://telegra.ph/file/f44791d4a7dd9cb9ae64e-513eb237a383107259.jpg https://telegra.ph/file/a64cda3e629846b645164-ad4688983c6972a7bb.jpg https://telegra.ph/file/f755c7bd2a2f66b927239-56c0aab00ed7f12948.jpg
+PICS = (environ.get('PICS', '')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
@@ -66,9 +66,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/kannadamovie844')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/pavanbots')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_open_movielink') # Tutorial video link for opening shortlink website 
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/DVITTALKANNADAMOVIE')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DVITTALKANNADAMOVIE')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/DVITTALKANNADAMOVIE') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : PY')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002244911983')) #Log channel id ( make sure bot is admin )
